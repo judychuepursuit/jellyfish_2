@@ -1,5 +1,5 @@
 
-// import noImage from '../components/image/no-Image.jpg';
+import noImage from '../components/image/no-Image.jpg';
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -8,15 +8,19 @@ import axios from "axios";
 function JellyfishDetail() {
   // const API = process.env.REACT_APP_API_URL;
   const API = import.meta.env.VITE_API_URL;
-  console.log(API)
-  const [jellyfish, setJellyfish] = useState([]);
+  const [jellyfish, setJellyfish] = useState({});
   let navigate = useNavigate();
   let { id } = useParams();
+  console.log(API, id);
 
   useEffect(() => {
     axios
       .get(`${API}/jellyfish/${id}`)
-      .then(response => setJellyfish(response.data))
+      .then(response => {
+        setJellyfish(response.data)
+        console.log(response)
+      })
+
       .catch(() => navigate("/not-found"));
   }, [id, navigate]);
 
@@ -26,11 +30,13 @@ function JellyfishDetail() {
       .then(() => navigate(`/jellyfish`))
       .catch((e) => console.error(e));
   };
-  
+  console.log(jellyfish)
   return (
     <article className="jellyfish-page">
-      <div className="jellyfish-detail">
+      <div>
+      {/* <div className="jellyfish-detail"> */}
         <div className="image">
+      {/* <h1>test</h1> */}
           <img src={jellyfish.image_link ? jellyfish.image_link : noImage}  alt="jellyfish"/>
         </div>
         {/* console.log(pose) */}
