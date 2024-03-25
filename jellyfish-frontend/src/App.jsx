@@ -6,7 +6,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // PAGES
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 import FourOFour from "./pages/FourOFour";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -21,7 +21,7 @@ function App() {
     <div className="Jellyfish">
       <Router>
       <Header/>
-      <NavBar />
+      {/* <NavBar /> */}
       {/* <Props name='Yu Xie' /> */}
         <main>
           <Routes>

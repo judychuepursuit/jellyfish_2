@@ -20,7 +20,6 @@ function JellyfishDetail() {
         setJellyfish(response.data)
         console.log(response)
       })
-
       .catch(() => navigate("/not-found"));
   }, [id, navigate]);
 
@@ -30,26 +29,25 @@ function JellyfishDetail() {
       .then(() => navigate(`/jellyfish`))
       .catch((e) => console.error(e));
   };
+
   console.log(jellyfish)
   return (
     <article className="jellyfish-page">
       <div>
+{/* somthing is wrong w line 39 worked w Jose - he suggest its the css issue*/}
       {/* <div className="jellyfish-detail"> */}
         <div className="image">
       {/* <h1>test</h1> */}
           <img src={jellyfish.image_link ? jellyfish.image_link : noImage}  alt="jellyfish"/>
         </div>
-        {/* console.log(pose) */}
+        {/* console.log(jellyfish) */}
         <div className="detail">
-          <h2>{jellyfish.is_venomous ? "☠" : "🌻"} {jellyfish.name}</h2>
+          <h2>{jellyfish.is_venomous ? "☠" : "♡"} {jellyfish.name}</h2>
           <p>
-            <span>Scientific Name:</span> {jellyfish.scientific}
+            <span>Scientific Name:</span> <em>{jellyfish.scientific}</em>
           </p>
-          <p>
-            Information:
-           <a href={jellyfish.infomation} target="_blank" rel="noreferrer">{jellyfish.website}
-            </a>
-          </p>
+
+          INFORMATION: {jellyfish.information}
           <p>Official Website: <a href={jellyfish.website} target="_blank"rel="noreferrer">{jellyfish.website}</a>
           </p>
         </div>

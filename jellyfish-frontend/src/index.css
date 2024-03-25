@@ -7,7 +7,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  margin-top: 30px;
+  /* margin: 0; */
   /* background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy (3).gif"); */
   /* background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy.gif"); */
   background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy (1).gif");
@@ -23,6 +24,7 @@ h1 {
   font-family: monospace, bold;
   color: white;
   animation: neon 3s infinite;
+  margin-top: 2rem;
 }
 
 @keyframes neon {
@@ -56,7 +58,8 @@ nav {
   align-items: center; 
   justify-content:flex-start;
   margin: 10px;
-  color: #e48628
+  color: #e48628;
+  margin-bottom: -55px
   /* line-height: 150px; */
 }
 
@@ -64,11 +67,11 @@ nav {
 
 nav a {
   color: #e48628;
-  font-size: 90px
+  font-size: 110px
 }
 
 a {
-  color: #e48628;
+  color:#e48628;
   text-decoration: none;
   font-size: 20px
 }
@@ -87,10 +90,10 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  padding: 20px;
+  height: 65vh;
+  /* padding: 70px; */
   position: relative;
-  top: 10px;
+  top: -10px;
 /* add these top 2 to the index page */
   color: #ffffff;
   background-attachment: fixed;
@@ -104,6 +107,19 @@ a:hover {
     background-size: cover;
     }
 }
+
+/* ----------------------HOME click for jellyfish-------------------- */
+
+.index-link {
+  color: #e48628;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.index-link:hover {
+  color: #ffffff;
+}
+
   /* color: #eea40f; */
   /* background-image: linear-gradient(60deg, #5783F2, #bacbf4);
   background-clip: text;
@@ -113,25 +129,26 @@ a:hover {
     
 .Content {
   text-align: center;
-  margin-bottom: 420px; /* Space between content sections */
-  margin-top: -100px;
+  margin-bottom: 30px; 
+  margin-top: -10px;
 }
 
 /* ----------------------HOME jellyfish description-------------------- */
 .jellyfish-description p {
-  color: rgb(162, 186, 241); /* Changes the text color */
-  max-width: 900px; /* Sets the maximum width */
-  margin: 1%; /* Centers the paragraph if the parent is wider */
-  /* margin: 0 auto;  */ /* Centers the paragraph if the parent is wider */
+  color: rgb(162, 186, 241); 
+  max-width: auto; 
+  margin: 7%; /* paragraph spacing */
   /* width: 100vw; */
-  height: 10vh;
-  padding-top: -30px;
+  height: 1vh;
+  margin-bottom: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: small;
 }
 
 .AllJellyfishLinks {
-  margin-top: 5px;
-  margin-bottom: 5px; /* Adjust as needed */
+  /* margin-top: 5px; */
+  margin-bottom: 10px; 
   font-size: small;
 }
 
@@ -146,19 +163,20 @@ a:hover {
 .Home img {
   width: 120px;
   position:relative;
-  top: -408px
+  top: -15px
 }
 
 .inner {
   color: #ffffff;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  position: relative;
-  top: -25px;
+  /* justify-content: space-around; */
+  /* position: relative; */
+  margin-top: 2rem;
   background-image:"image/water_sky.jpeg";
   font-size: medium;
+  align-items: center;
 }
 
 .all-jellyfish {
@@ -207,25 +225,31 @@ a:hover {
   color: white;
   margin: auto;
   padding: 4px 10px 0px 0px;
-  width:min-content;
+  width: min-content;
   height: max-content;
-  position:relative;
+  position: relative;
   top: -700px
 }
 
 .jellyfish-detail img {
-  width: 180px;
-  height:fit-content;
+  /* width: 180px; */
+  /* height:fit-content; */
   border-radius: 12px;
-  margin: 0 3em  3em;
-  padding-bottom: 2px;
+  /* margin: 0 3em  3em; */
+  /* padding-bottom: 2px; */
 }
 
 .image {
-  /* display: block; */
-  /* align-items: center; */
-  width: 100%;
-  height: auto;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  position: relative;
+  border-radius: 12px;
+  width: 70%;
+  margin-left: 15%;
+  /* height: 100%; */
   object-fit: cover;
   overflow: hidden;
 }
@@ -234,7 +258,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 0;
+  margin-left: 0;
   padding-top: 2em;
   position: relative;
   /* top: -700px  */
@@ -292,7 +316,7 @@ input[type="submit"]:hover, button:hover {
   margin: auto;
   width: 70%;
   position: relative;
-  top: -40px
+  top: -10px
 } 
 
 /* ----------------------NEW jellyfish form-------------------- */
@@ -303,8 +327,8 @@ form {
   box-shadow: 6px 6px 10px 0px #969be1cc;
   font-weight: bold;
   margin: auto;
-  margin: 0 0 1em 0;
-  padding: .5em 1.5em 1.5em 2.5em;
+  margin: 1 0 1em 0;
+  padding: 1.5em 1.5em 1.5em 2.5em;
   width: 95%;
 }
 /* -----------------User type in NEW jellyfish form ----------------- */
@@ -321,21 +345,47 @@ input[type="checkbox"] {
 }
 
 /* --------------------------FOOTER------------------------------ */
-footer {
+
+.footer-container { 
+    position:sticky;
+    /* bottom: 5px; */
+    margin-top: 12%;
+    align-items: center;
+    text-align: center;
+  }
+
+.footer-text a {
+  color: rgb(162, 186, 241); 
+  font-size: 10px; 
+  /* bottom: -23px; */
+  padding-left: 4%;
+  }
+
+.footer-text .source-style {  /* footer source and asterisk style */
+  color: rgb(162, 186, 241);
+  font-size: 10px;
+}
+
+.footer-text a:hover {
+color: #ffffff;
+}
+
+
+/* footer {
   color: rgb(162, 186, 241);
   font-size: 10px;
   position: fixed;
   bottom: 10px;
   margin-top: 15%;
   left: 6%;
-}
+} */
 
-@media (max-width: 768px) {
-  .pose-detail{
+/* @media (max-width: 768px) {
+  .jellyfish-detail{
     width: 100%;
   }
 
   .detail{
     width: 100%;
   }
-}
+} */
