@@ -52,7 +52,7 @@ function EditJellyfish() {
   };
 
   return (
-    <div className="NewEdit">
+    <div className="new-edit-jellyfish">
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Jellyfish Name:</label>
         <input
@@ -113,10 +113,20 @@ function EditJellyfish() {
         <input type="submit" value="SUBMIT"/>
       </form>
       <Link to={`/jellyfish/${id}`}>
-        <button>BACK</button>
+      <button className="edit-back-button">BACK</button>
+      {/* <button>BACK</button> */}
       </Link>
     </div>
   );
 }
 
 export default EditJellyfish;
+
+{/* <br />
+<input type="submit"  value="SUBMIT"/>
+</form>
+<Link to={`/jellyfish`}>
+<button className="new-back-button">BACK</button>
+{/* <button>BACK</button> */}
+// </Link>
+// </div> */}

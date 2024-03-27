@@ -32,16 +32,17 @@ function JellyfishDetail() {
 
   console.log(jellyfish)
   return (
-    <article className="jellyfish-page">
+    <div className="jellyfish-page">
+    {/* <article className="jellyfish-page"> */}
       <div>
 {/* somthing is wrong w line 39 worked w Jose - he suggest its the css issue*/}
       {/* <div className="jellyfish-detail"> */}
-        <div className="image">
+        <div className="show-image">
       {/* <h1>test</h1> */}
           <img src={jellyfish.image_link ? jellyfish.image_link : noImage}  alt="jellyfish"/>
         </div>
         {/* console.log(jellyfish) */}
-        <div className="detail">
+        <div className="show-detail">
           <h2>{jellyfish.is_venomous ? "☠" : "♡"} {jellyfish.name}</h2>
           <p>
             <span>Scientific Name:</span> <em>{jellyfish.scientific}</em>
@@ -70,7 +71,8 @@ function JellyfishDetail() {
           <button onClick={handleDelete}>DELETE</button>
         </div>
       </div>
-    </article>
+    </div>
+    // </article>
   );
 }
 

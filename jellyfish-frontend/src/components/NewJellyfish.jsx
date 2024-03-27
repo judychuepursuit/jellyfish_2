@@ -78,14 +78,14 @@ function NewJellyfish() {
           placeholder="Scientific Name"
           onChange={handleTextChange}
         />
-        <label htmlFor="instructions">Jellyfish Instructions:</label>
+        <label htmlFor="instructions">Jellyfish Information:</label>
         <input
-          id="instructions"
-          name="instructions"
+          id="information"
+          name="information"
           type="text"
-          value={jellyfish.instructions}
+          value={jellyfish.information}
           onChange={handleTextChange}
-          placeholder="Jellyfish Instructions"
+          placeholder="Jellyfish Information"
         />
         <label htmlFor="website">Website:</label>
         <input
@@ -110,7 +110,8 @@ function NewJellyfish() {
         <input type="submit"  value="SUBMIT"/>
       </form>
       <Link to={`/jellyfish`}>
-        <button>BACK</button>
+      <button className="new-back-button">BACK</button>
+        {/* <button>BACK</button> */}
       </Link>
     </div>
   );
