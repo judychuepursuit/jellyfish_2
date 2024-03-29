@@ -4,7 +4,7 @@ h1 {
     display: flex;
     flex-direction: column; 
     /* align-items: center;  */
-    color: #e48628;
+    color: coral;
     animation: neon 3s infinite;
     margin-top: 2rem;
   }
@@ -14,7 +14,7 @@ h1 {
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    color: #e48628;
+    color: coral;
     animation: neon 3s infinite;
   }
   
@@ -28,9 +28,9 @@ h1 {
   @keyframes neon {
     0%, 39%, 31%, 59%, 61%, 90% {
       text-shadow: 
-      white 0 0 22px,
+      white 0 0 32px,
       #1077e4 0 0 25px,
-      #e99311 0 0 24px;
+      coral 0 0 24px;
     }
     50%, 50% {
       text-shadow: none;
