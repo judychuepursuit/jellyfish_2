@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 {/* <img src="/Pelagia_noctiluca.jpeg" alt="Main Jellyfish Image"/> */}
 import image from '/jellyfish icon.jpg';
+import "./Home.css";
 
 function Home() {
   return (

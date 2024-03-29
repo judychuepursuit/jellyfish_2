@@ -1,0 +1,111 @@
+/* -------------------INDEX PAGE ALL jellyfish 3.28.24---------------- */
+.inner {
+    color:#ffffff;
+    display: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+    margin-top: 2rem;
+    background-image:"image/water_sky.jpeg";
+    font-size: medium;
+    align-items: center;
+  }
+  
+  .all-jellyfish {
+    display: flex;
+    align-content: flex-start;
+    font-size: smaller;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    top: -250px
+  }
+  
+  .jellyfish-card {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px 0px  #969be1cc;
+    margin: 10px;
+    height: 220px;
+    width: 170px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: -2px
+  } 
+  
+  .jellyfish-card img {
+    border-radius: 15px;
+    width: 115px;
+    padding-bottom: -10px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: -15px;
+  }
+  
+  .jellyfish-detail img {
+    width: 10px;
+    /* max-height: 10px; */
+    height: 100%;
+    border-radius: 12px;
+    margin: 0 3em  3em;
+    padding-bottom: 2px;
+    object-fit: contain;
+  }
+  
+  .jf-card-link {
+    color: #428de8;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .custom-hover {
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for transform and color */
+    display: inline-block; /* Allows transformation */
+  }
+  
+  .custom-hover:hover {
+    color: #428de8; /* Change to your desired hover color */
+    transform: scale(1.5);
+  }
+  /* Styles for other links to have the default hover effect */
+  a:hover {
+    /* color: #428de8; */
+    /* color: #e48628; */
+    text-decoration: none;
+  }
+
+/* -----------------SUBMIT NEW jellyfish form ----------------- */
+/* NOTE: Moved to Index.css 3.28.24*/
+
+input[type="submit"] {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 0.5em 2em 0.5em 2em;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    /* background-color: #428de8; */
+    /* background-color: #c1e2fa; */
+  }
+  
+  input[type="submit"]:hover, button:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #428de8;
+  }
+  
+  .new-btn {
+    font-size: 20px;
+  }

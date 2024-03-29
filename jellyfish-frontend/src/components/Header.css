@@ -1,0 +1,38 @@
+h1 {
+    font-family: monospace, bold;
+    /* font-size: 100px; */
+    display: flex;
+    flex-direction: column; 
+    /* align-items: center;  */
+    color: #e48628;
+    animation: neon 3s infinite;
+    margin-top: 2rem;
+  }
+  
+  .jellyfish-headline {
+    font-size: 110px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    color: #e48628;
+    animation: neon 3s infinite;
+  }
+  
+  .jellyfish-headline.no-hover:hover {
+    color: inherit;
+    /* Keeps the color the same as the non-hover state */
+    text-decoration: none;
+    /* Removes any text decoration on hover */
+  }
+  
+  @keyframes neon {
+    0%, 39%, 31%, 59%, 61%, 90% {
+      text-shadow: 
+      white 0 0 22px,
+      #1077e4 0 0 25px,
+      #e99311 0 0 24px;
+    }
+    50%, 50% {
+      text-shadow: none;
+    }
+  }

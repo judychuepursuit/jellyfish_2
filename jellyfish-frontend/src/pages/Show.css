@@ -11,3 +11,88 @@
     background: #ffffff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   } */
+
+  /* this is what Jose said I shoul dhave on pages that use this 2nd bkground image */
+  /* body 
+  .second-background {
+    filter: alpha(Opacity=90);
+    opacity: 0.85;
+    background-image: url("components/image/water_sky.jpeg");
+    background-position: center;
+    position: absolute; */
+/* not used */
+    /* z-index: 1; */
+  /* } */
+
+
+  /* ----------------------SHOW PAGE jellyfish-------------------- */
+/* NOTE: Moved to Show.css 3.28.24 */
+.show-image {
+    /* align-items: start; */
+    border-radius: 15px;  
+    /* overflow: hidden; */
+    width: 50%;
+    height: 40px;
+    margin-top: 10%; 
+    object-fit: cover;
+    /* z-index: 200; */
+  }
+  
+  /* ---------????----------------- */
+  .jellyfish-page { 
+    align-items: center;
+    border-radius: 15px;  
+    overflow: hidden;
+    width: 810px;
+    /* height: 380px; */
+    /* margin-top: 15%; */
+    /* object-fit: cover; */
+    /* z-index: 100; */
+  }
+  
+  .show-detail {
+    display: flex;
+    flex-direction: column;
+    background-color: #85c6f4;
+    align-items: center;
+    box-shadow: 6px 6px 10px 0px #969be1cc;
+    color: white;
+    /* margin-left: 220px; */
+    margin: auto;
+    font-size: 17.75px;
+    line-height: 116%;
+    padding: 20px 25px 0px 400px;
+    width: 28%;
+    height: 1050px;
+    position: relative;
+    overflow: hidden;
+    /* top: -150px; */
+    /* z-index: 1 */
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30%;
+    /* margin: auto; */
+    margin-left: 110px;
+    position: absolute;
+    top: 200px 
+  }
+  
+  /* NEW jf button on index page */
+  input[type="submit"], button {
+    /* background-color: #e48628; */
+    /* background-color: #e48628; */
+    background-color:#0946ed;;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px 0px #969be1cc;
+    color: white;
+    font-weight: bold;
+    /* padding-left: 10px; */
+    padding: 0.6em 1em 0.6em 1em;
+    position: relative;
+  }

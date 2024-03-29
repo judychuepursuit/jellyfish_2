@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+// add this from index.css
+import "./NewJellyfish.css";
 
 function NewJellyfish() {
   // const API = process.env.REACT_APP_API_URL;

@@ -1,0 +1,69 @@
+/* NOTE: Moved from Index.css 3.28.24*/
+
+.NewEdit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: auto;
+    width: 70%;
+    /* margin-bottom: 10px; */
+    padding-top: 1rem;
+    /* position: relative; */
+  } 
+  
+  .new-edit-jellyfish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: auto;
+    width: 70%;
+    /* margin-bottom: 10px; */
+    padding-top: 1rem;
+  }
+  
+  .new-back-button, .edit-back-button {  /* Styles back buttons */
+    /* background-color:#428de8; */
+    /* background-color: #e48628; */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 27px;
+    padding: 0.7em 2em 0.7em 2em;
+    justify-content: center;
+  }
+  
+  .new-back-button, .edit-back-button:hover {
+    background-color:#e48628;
+    color: #ffffff;
+  }
+
+
+/* ----------------------NEW jellyfish form-------------------- */
+form {
+    /* background-color: #89dcf1; */
+    background-color: #9cd5fd;
+    border-radius: 18px;
+    box-shadow: 6px 6px 10px 0px #969be1cc;
+    /* font-weight: bold; */
+    /* margin: auto; */
+    /* margin: 1 0 1em 0; */
+    padding: 2.5em 1.5em 1.5em 2.5em;
+    width: 95%;
+  }
+
+  input {
+    display: block;
+    /* margin: 2px; */
+    margin: auto;
+    padding: 8px;
+    margin-bottom: 1.5em;
+    width: 90%;
+  }
+  
+  input[type="checkbox"] {
+    margin: 2px;
+    width: 11%;
+  }

@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import AllJellyfish from "../components/AllJellyfish";
-// import image from "../components/image/water_sky.jpeg";
+import image from "../components/image/water_sky.jpeg";
 import { useState, useEffect } from "react";
+
+import "./Index.css";
 
 function Index() {
 

@@ -8,9 +8,9 @@ function JellyfishCard({ jellyfish }) {
         <img src={jellyfish.image_link ? jellyfish.image_link : noImage } alt="jellyfish"/>
       </div>
       <div>
-        <h4>
-          <Link to={`/jellyfish/${jellyfish.id}`} >{jellyfish.is_venomous ? "☠" : "♡"} {jellyfish.name}</Link>
-        </h4>
+        <h5 className="jf-card-link">
+          <Link to={`/jellyfish/${jellyfish.id}`} className="custom-hover">{jellyfish.is_venomous ? "☠" : "♡"} {jellyfish.name}</Link>
+        </h5>
       </div>
     </div>
   );

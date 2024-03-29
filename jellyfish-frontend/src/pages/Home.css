@@ -1,0 +1,108 @@
+/* NOTE: Moved to NewJellyfish.css 3.28.24*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    /* background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy (3).gif"); */
+    /* background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy.gif"); */
+    background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy (1).gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* -----------------------HOME-------------------- */
+  .Home {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 65vh;
+      padding: 10px;
+      position: relative;
+      /* top: -10px; */
+
+      /* Welcome header */
+      color: #ffffff;
+      background-attachment: fixed;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      html {
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+}
+    
+.Content {
+    text-align: center;
+    margin-bottom: 70px; 
+    margin-top: -30px;
+}
+
+/* -------------HOME click for jellyfish----------------- */
+/* NOTE: Moved to HEADER.css 3.28.24 */
+
+a {
+    color: rgb(162, 186, 241); 
+    text-decoration: none;
+    font-size: 24px
+    }
+    
+    a:hover {
+    color: #ffffff;
+    } 
+    
+    /* not sure if I need this */
+    /* is this a duplicate??? */
+
+    /* .index-link {
+    color: #e48628;
+    text-decoration: none;
+    font-size: 20px;
+    } */
+    
+    /* .index-link:hover {
+    color: #4813c3;
+    } */
+
+/* ---------------------HOME jellyfish description------------------ */
+
+.jellyfish-description p {
+    color: rgb(162, 186, 241); 
+    max-width: auto; 
+    margin: 5px; 
+    line-height: 135%;
+    width: 75vw;
+    /* height: vh; */
+    /* margin-bottom: 1.5rem; */
+    padding-top: 10px;
+    font-size: small;
+}
+  
+.AllJellyfishLinks {
+    /* margin-top: 5px; */
+    margin-bottom: -30px;
+    font-size: 3rem;
+}
+  
+/* ----------------------HOME PAGE jellyfish icon-------------------- */
+.ImageContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 135px;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+}
+
+.Home img {
+    width: 120px;
+    position:relative;
+    top: -25px
+}

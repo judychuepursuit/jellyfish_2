@@ -5,80 +5,99 @@
   outline: 1px solid #000;
 }  */
 
-body {
+/* --------------- HOME PAGE------------------ */
+/* NOTE: Moved to HOME.css 3.28.24 */
+
+/* body {
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 30px;
+  margin-top: 30px; */
+  
+  /* not used */
   /* margin: 20px; */
   /* background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy (3).gif"); */
   /* background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy.gif"); */
-  background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy (1).gif");
+  
+  /* background-image: url("/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/components/image/giphy (1).gif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
-}
+} */
 
-h1 {
-  font-family: monospace, bold;
-  color: white;
+/* .Content {
+  text-align: center;
+  margin-bottom: 30px;  */
+  /* not used */
+  /* margin-top: -10px; */
+/* } */
+
+/* -----------------jellyfih main header-------------------- */
+/* NOTE: Moved to HEADER.css 3.28.24 */
+
+/* h1 {
+  font-family: monospace, bold; */
+  /* not used */
+  /* font-size: 100px; */
+
+  /* display: flex;
+  flex-direction: column;  */
+  /* not used */
+  /* align-items: center;  */
+
+  /* color: #e48628;
   animation: neon 3s infinite;
-  margin-top: rem;
-  font-size:larger;
+  margin-top: 1rem;
 }
 
-@keyframes neon {
-0%, 39%, 31%, 59%, 61%, 90% {
-  text-shadow: 
-  white 0 0 22px,
-  #1077e4 0 0 45px,
-  #e99311 0 0 34px;
-}
-50%, 50% {
-  text-shadow: none;
-}
-}
-
-/* .index-bg { */
-.second-background {
-  filter: alpha(Opacity=90);
-  opacity: 0.85;
-  background-image: url("components/image/water_sky.jpeg");
-  background-position: center;
-  position: absolute;
-  /* z-index: 1; */
-}
-
-/* span {
-  font-weight: bold;
-} */
-/* -------------HOME HEADER----------------- */
-/* .jf-page-header {
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  justify-content:flex-start;
-  margin: 10px;
-  color: #e48628;
-  margin-bottom: -55px
-  line-height 150px
-} */
-
-/* -------------HOME click for jellyfish----------------- */
-
-/* nav a {
-  color: #e48628;
-} */
-.header-link {
+.jellyfish-headline {
   font-size: 100px;
   display: flex;
   flex-direction: column; 
   align-items: center; 
-  justify-content:flex-start;
-}
+  color: #e48628;
+  animation: neon 3s infinite;
+} */
 
-a {
+/* .jellyfish-headline.no-hover:hover {
+  color: inherit; */
+  /* Keeps the color the same as the non-hover state */
+  /* text-decoration: none; */
+  /* Removes any text decoration on hover */
+/* } */
+
+/* @keyframes neon {
+  0%, 39%, 31%, 59%, 61%, 90% {
+    text-shadow: 
+    white 0 0 22px,
+    #1077e4 0 0 25px,
+    #e99311 0 0 24px;
+  }
+  50%, 50% {
+    text-shadow: none;
+  }
+} */
+
+
+/* .index-bg { */
+  .second-background {
+    filter: alpha(Opacity=90);
+    opacity: 0.85;
+    background-image: url("components/image/water_sky.jpeg");
+    background-position: center;
+    position: absolute;
+  }
+
+/* span ???{
+  font-weight: bold;
+} */
+
+/* ----------------------HOME click for jellyfish------------------- */
+/* NOTE: Moved to HOME.css 3.28.24 */
+
+/* this was used */
+/* a {
   color:#e48628;
   text-decoration: none;
   font-size: 20px
@@ -86,39 +105,11 @@ a {
 
 a:hover {
   color: #ffffff;
-} 
-
-/* .no-hover:hover {
-  color: #e48628;
 }  */
 
-/* -----------------------HOME-------------------- */
-.Home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
-  /* padding: 70px; */
-  position: relative;
-  /* top: -10px; */
-/* add these top 2 to the index page */
-  color: #ffffff;
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  html {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-}
-
-/* ----------------------HOME click for jellyfish-------------------- */
-
-.index-link {
+/* is this a duplicate??? */
+/* not used */
+/* .index-link {
   color: #e48628;
   text-decoration: none;
   font-size: 20px;
@@ -126,64 +117,66 @@ a:hover {
 
 .index-link:hover {
   color: #ffffff;
-}
+} */
 
-  /* color: #eea40f; */
-  /* background-image: linear-gradient(60deg, #5783F2, #bacbf4);
-  background-clip: text;
-  color: transparent; */
-  /* background-image: url("/image/Pelagiidae_-_Pelagia_noctiluca.jpeg"); */
-/* }   */
-    
-.Content {
-  text-align: center;
-  margin-bottom: 30px; 
-  /* margin-top: -10px; */
-}
 
-/* ----------------------HOME jellyfish description-------------------- */
-.jellyfish-description p {
+/* ---------------------HOME jellyfish description------------------ */
+/* NOTE: Moved to HOME.css 3.28.24 */
+
+/* .jellyfish-description p {
   color: rgb(162, 186, 241); 
   max-width: auto; 
-  margin: 10px; /* paragraph spacing */
-  /* width: 100vw; */
-  height: vh;
-  margin-bottom: 1rem;
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-  font-size: small;
-}
+  margin: 5px; 
+  line-height: 135%;
+  width: 75vw; */
+  /* not used */
+  /* height: vh; */
+  /* margin-bottom: 1.5rem; */
 
-.AllJellyfishLinks {
+  /* padding-top: 10px;
+  font-size: small;
+} */
+
+/* .AllJellyfishLinks { */
+  /* not used */
   /* margin-top: 5px; */
-  margin-bottom: 10px; 
-  font-size: small;
-}
 
-/* ----------------------HOME PAGE jellyfish icon-------------------- */
-.ImageContainer {
+  /* margin-bottom: 10px; 
+  font-size: small;
+} */
+
+/* ---------------------HOME PAGE jellyfish icon------------------- */
+/* NOTE: Moved to HOME.css 3.28.24 */
+
+/* .ImageContainer {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
   width: 135px;
   margin-bottom: 3rem;
+  padding-bottom: 8rem;
 }
 
 .Home img {
   width: 120px;
   position:relative;
   top: -15px
-}
+} */
 
-.inner {
+/* -------------------INDEX PAGE ALL jellyfish ---------------- */
+/* NOTE: Moved in pages folder to Index.css 3.28.24 */
+
+/* .inner {
   color:#ffffff;
   display: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-around; */
+  /* not used */
   /* position: relative; */
-  margin-top: 2rem;
+
+  /* margin-top: 2rem;
   background-image:"image/water_sky.jpeg";
   font-size: medium;
   align-items: center;
@@ -202,13 +195,13 @@ a:hover {
 }
 
 .jellyfish-card {
+  flex-direction: column;
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: white;
   border-radius: 15px;
   box-shadow: 6px 6px 10px 0px  #969be1cc;
-  flex-direction: column;
-  justify-content: center;
   margin: 10px;
   height: 220px;
   width: 170px;
@@ -224,109 +217,254 @@ a:hover {
   color: white;
   margin-top: 25px;
   margin-bottom: -15px;
-}
+} */
 
-.jellyfish-detail img {
-  width: 10px;
-  height: 100%;
+/* .jellyfish-detail img {
+  width: 10px; */
+  /* not used */
+  /* max-height: 10px; */
+
+  /* height: 100%;
   border-radius: 12px;
   margin: 0 3em  3em;
   padding-bottom: 2px;
   object-fit: contain;
+} */
+
+/* .jf-card-link {
+  color: #428de8;
+  font-weight: 600;
+  font-size: 12px;
 }
 
-/* ----------------------SHOW PAGE jellyfish-------------------- */
+.custom-hover {
+  transition: transform 0.3s ease, color 0.3s ease; 
+  display: inline-block; 
+}
 
-.show-image {
+.custom-hover:hover {
+  color: #428de8; 
+  transform: scale(1.5);
+} */
+/* Styles for other links to have the default hover effect */
+/* a:hover { */
+  /* not used */
+  /* color: #428de8; */
+  /* color: #e48628; */
+  
+  /* text-decoration: none;
+} */
+
+/* ----------------------SHOW PAGE jellyfish-------------------- */
+/* NOTE: Moved to Show.css 3.28.24 */
+/* .show-image { */
+  /* not used */
+  /* align-items: start; */
+
+  /* border-radius: 15px;   */
+  /* not used */
+  /* overflow: hidden; */
+
+  /* width: 50%;
+  height: 40px;
+  margin-top: 10%; 
+  object-fit: cover; */
+  /* not used */
+  /* z-index: 200; */
+/* } */
+
+/* ---------????----------------- */
+/* .jellyfish-page { 
   align-items: center;
   border-radius: 15px;  
   overflow: hidden;
-  width: 280px;
-  margin-top: -10%; 
-  height: 380px;
-  object-fit: cover;
-  z-index: 200;
-}
-
-/* ? */
-.jellyfish-page { 
-  /* align-items: center; */
-  border-radius: 15px;  
-  /* overflow: hidden; */
-  /* width: 280px; */
-  /* margin-top: -10%;  */
+  width: 810px; */
+  /* not used */
   /* height: 380px; */
+  /* margin-top: 15%; */
   /* object-fit: cover; */
   /* z-index: 100; */
-}
+/* } */
 
-.show-detail {
+/* .show-detail {
   display: flex;
   flex-direction: column;
   background-color: #85c6f4;
   align-items: center;
-  /* background-color: #90b7f2; */
-  border-radius: 15px;
   box-shadow: 6px 6px 10px 0px #969be1cc;
-  color: white;
+  color: white; */
+  /* not used */
   /* margin-left: 220px; */
-  margin: auto;
+
+  /* margin: auto;
   font-size: 17.75px;
   line-height: 116%;
   padding: 20px 25px 0px 400px;
   width: 28%;
-  height: 850px;
+  height: 1050px;
   position: relative;
-  overflow: hidden;
-  top: -370px;
-  z-index: 1
-}
+  overflow: hidden; */
+  /* not used */
+  /* top: -150px; */
+  /* z-index: 1 */
+/* } */
 
-.navigation {
+/* .navigation {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; */
+  /* not used */
   /* justify-content: center; */
-  align-items: center;
-  gap: 38%;
-  margin: auto;
-  margin-left: 250px;
-  position: absolute;
-  top: 250px 
-}
 
-input[type="submit"], button {
-  background-color: #e48628;
+  /* align-items: center;
+  gap: 30%; */
+  /* not used */
+  /* margin: auto; */
+
+  /* margin-left: 110px;
+  position: absolute;
+  top: 200px 
+} */
+
+/* input[type="submit"], button {
+  background-color: #e48628; */
+  /* not used */
   /* background-color: #5783f2; */
-  border: none;
+
+  /* border: none;
   border-radius: 8px;
   box-shadow: 6px 6px 10px 0px #969be1cc;
   color: white;
-  font-weight: bold;
+  font-weight: bold; */
+  /* not used */
   /* padding-left: 10px; */
-  padding: 0.7em 2em 0.7em 2em;
+
+  /* padding: 0.7em 2em 0.7em 2em;
   position: relative;
-}
+} */
 
 /* -----------------SUBMIT NEW jellyfish form ----------------- */
+/* NOTE: Moved to Index.css 3.28.24*/
 
-input[type="submit"] {
-  width: 20%;
-  background-color: #e48628;
-  color: #ffffff;
+/* input[type="submit"] {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 0.5em 2em 0.5em 2em;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%; */
+  /* not used */
   /* background-color: #428de8; */
   /* background-color: #c1e2fa; */
-}
+/* } */
 
-input[type="submit"]:hover, button:hover {
+/* input[type="submit"]:hover, button:hover {
   color: #ffffff;
   cursor: pointer;
   background-color: #428de8;
 }
-/* 
+
 .new-btn {
-  font-size: 18px;
+  font-size: 22px;
 } */
 
+/* -----------------Add a NEW jellyfish form ----------------- */
+/* NOTE: Moved to NewJellyfish.css 3.28.24*/
+
+/* .NewEdit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: auto;
+  width: 70%; */
+
+  /* not used */
+  /* margin-bottom: 10px; */
+
+  /* padding-top: 1rem; */
+
+  /* not used */
+  /* position: relative; */
+/* }  */
+
+/* .new-edit-jellyfish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: auto;
+  width: 70%; */
+
+  /* not used */
+  /* margin-bottom: 10px; */
+
+  /* padding-top: 1rem;
+} */
+
+/* .new-back-button, .edit-back-button {   */
+  /* Styles back buttons */
+  /* not used */
+  /* background-color:#428de8; */
+  /* background-color: #e48628; */
+
+  /* border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 27px;
+  padding: 0.7em 2em 0.7em 2em;
+  justify-content: center;
+} */
+
+/* .new-back-button, .edit-back-button:hover {
+  background-color:#e48628;
+  color: #ffffff;
+} */
+
+/* ----------------------NEW jellyfish form-------------------- */
+/* NOTE: Moved to NewJellyfish.css */
+/* form { */
+  /* not used */
+  /* background-color: #89dcf1; */
+
+  /* background-color: #9cd5fd;
+  border-radius: 18px;
+  box-shadow: 6px 6px 10px 0px #969be1cc; */
+
+/* not used */
+  /* font-weight: bold; */
+  /* margin: auto; */
+  /* margin: 1 0 1em 0; */
+
+  /* padding: 2.5em 1.5em 1.5em 2.5em;
+  width: 95%; */
+/* } */
+
+/* --------------User type in NEW jellyfish form ----------------- */
+/* NOTE: Moved to New.css 3.28.24 */
+/* input {
+  display: block; */
+
+  /* not used */
+  /* margin: 2px; */
+
+  /* margin: auto;
+  padding: 8px;
+  margin-bottom: 1.5em;
+  width: 90%;
+}
+
+input[type="checkbox"] {
+  margin: 2px;
+  width: 11%;
+} */
+
+
+/* --------------------NOT FOUND -------------------- */
 .not-found {
   display: flex;
   align-items: center;
@@ -342,110 +480,41 @@ input[type="submit"]:hover, button:hover {
   box-shadow: 6px 6px 10px 0px #969be1cc;
   width: 250px;
 }
-/* -----------------Add a NEW jellyfish form ----------------- */
-.NewEdit {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  margin: auto;
-  width: 70%;
-  /* margin-bottom: 10px; */
-  padding-top: 1rem;
-  /* position: relative; */
-} 
-
-.new-edit-jellyfish {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  margin: auto;
-  width: 70%;
-  /* margin-bottom: 10px; */
-  padding-top: 1rem;
-}
-
-.new-back-button, .edit-back-button {  /* Styles back buttons */
-  background-color:#428de8;
-  /* background-color: #e48628; */
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 25px;
-  margin-left: 27px;
-  padding: 0.7em 3.25em 0.7em 3.25em;
-  justify-content: center;
-}
-
-.new-back-button, .edit-back-button:hover {
-  background-color:#e48628;
-  color: #ffffff;
-}
-
-/* ----------------------NEW jellyfish form-------------------- */
-form {
-  /* background-color: #89dcf1; */
-  background-color: #85c6f4;
-  /* background-color: #9cd5fd; */
-  border-radius: 18px;
-  box-shadow: 6px 6px 10px 0px #969be1cc;
-  /* font-weight: bold; */
-  /* margin: auto; */
-  /* margin: 1 0 1em 0; */
-  padding: 2.5em 1.5em 1.5em 2.5em;
-  width: 95%;
-}
-/* -----------------User type in NEW jellyfish form ----------------- */
-input {
-  display: block;
-  /* margin: 2px; */
-  margin: auto;
-  padding: 8px;
-  margin-bottom: 1.5em;
-  width: 90%;
-}
-
-input[type="checkbox"] {
-  margin: 2px;
-  width: 11%;
-}
 
 /* --------------------------FOOTER------------------------------ */
+/* NOTE: Moved to Footer.css 3.28.24 */
 
-.footer-container { 
-    position:sticky;
+/* .footer-container { 
+    position:sticky; */
+    /* not used */
     /* bottom: 15px; */
-    margin-top: 12%;
-    align-items:normal;
-    /* align-items: center; */
+
+    /* margin-top: 15%;
+    align-items: center;
     text-align: center;
-  }
+  } */
 
-.footer-text a {
-  color: rgb(162, 186, 241); 
-  font-size: 10px; 
-  /* bottom: -23px; */
-  padding-left: 4%;
-  }
+/* .footer-text a {
+  color: #396fed; */
+  /* not used */
+  /* color: rgb(162, 186, 241); */
 
-.footer-text .source-style {  /* footer source and asterisk style */
-  color: rgb(162, 186, 241);
-  font-size: 10px;
-}
+  /* font-size: 10px; 
+  position: relative;
+  padding-left: 1%;
+  } */
 
-.footer-text a:hover {
+/* .footer-text .source-style {   */
+/* footer source and asterisk style */
+  /* color: #396fed; */
+  /* not used */
+  /* color: rgb(162, 186, 241);  */
+
+  /* font-size: 10px;
+} */
+
+/* .footer-text a:hover {
 color: #ffffff;
-}
-
-
-/* footer {
-  color: rgb(162, 186, 241);
-  font-size: 10px;
-  position: fixed;
-  bottom: 10px;
-  margin-top: 15%;
-  left: 6%;
 } */
 
 /* @media (max-width: 768px) {
