@@ -1,17 +1,28 @@
+  /* this is what Jose said I shoul dhave on pages that use this 2nd bkground image */
+  body 
+  .second-background {
+    filter: alpha(Opacity=90);
+    opacity: 0.85;
+    background-image: url("components/image/water_sky.jpeg");
+    background-position: center;
+    position: absolute;
+/* not used */
+    /* z-index: 1; */
+  }
+
 /* -------------------INDEX PAGE ALL jellyfish 3.28.24---------------- */
-.inner {
+/* .inner {
     color:#ffffff;
     display: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    /* position: relative; */
     margin-top: 2rem;
     background-image:"image/water_sky.jpeg";
     font-size: medium;
     align-items: center;
-  }
+  } */
   
   .all-jellyfish {
     display: flex;
@@ -28,15 +39,15 @@
   .jellyfish-card {
     flex-direction: column;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     background-color: white;
     border-radius: 15px;
     box-shadow: 6px 6px 10px 0px  #969be1cc;
     margin: 10px;
-    height: 220px;
-    width: 170px;
-    padding: 10px 10px 10px 10px;
+    height: 210px;
+    width: 180px;
+    padding: 25px 10px 0px 10px;
     position: relative;
     top: -2px
   } 
@@ -44,10 +55,13 @@
   .jellyfish-card img {
     border-radius: 15px;
     width: 115px;
+    height: 120px;
     padding-bottom: -10px;
     color: white;
-    margin-top: 25px;
+    /* margin-top: 20px; */
     margin-bottom: -15px;
+    margin-top: 0;
+    /* object-fit: contain; */
   }
   
   .jellyfish-detail img {
@@ -57,7 +71,7 @@
     border-radius: 12px;
     margin: 0 3em  3em;
     padding-bottom: 2px;
-    object-fit: contain;
+    /* object-fit: contain; */
   }
   
   .jf-card-link {
@@ -107,6 +121,10 @@ input[type="submit"] {
   }
   
   .new-btn {
-    font-size: 20px;
+    font-size: 22px;
     background-color: coral;
+    padding-top: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 14px;
   }

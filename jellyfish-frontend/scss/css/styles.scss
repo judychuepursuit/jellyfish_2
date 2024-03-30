@@ -1,38 +1,38 @@
 // Variables
-$primary-color: #3498db;
-$secondary-color: #2ecc71;
+// $primary-color: #3498db;
+// $secondary-color: #2ecc71;
 
 // Mixins
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// @mixin flex-center {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
 // Base styles
-body {
-  font-family: 'Arial', sans-serif;
-  color: $primary-color;
-  background-color: #f3f3f3;
-}
+// body {
+//   font-family: 'Arial', sans-serif;
+//   color: $primary-color;
+//   background-color: #f3f3f3;
+// }
 
-h1 {
-  color: $secondary-color;
-}
+// h1 {
+//   color: $secondary-color;
+// }
 
 // Using the mixin
-.container {
-  @include flex-center;
-  height: 100vh;
-}
+// .container {
+//   @include flex-center;
+//   height: 100vh;
+// }
 
 // Nested rules
-nav {
-  ul {
-    list-style: none;
-    li {
-      display: inline-block;
-      margin-right: 20px;
-    }
-  }
-}
+// nav {
+//   ul {
+//     list-style: none;
+//     li {
+//       display: inline-block;
+//       margin-right: 20px;
+//     }
+//   }
+// }

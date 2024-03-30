@@ -122,11 +122,3 @@ function EditJellyfish() {
 
 export default EditJellyfish;
 
-{/* <br />
-<input type="submit"  value="SUBMIT"/>
-</form>
-<Link to={`/jellyfish`}>
-<button className="new-back-button">BACK</button>
-{/* <button>BACK</button> */}
-// </Link>
-// </div> */}

@@ -15,7 +15,7 @@ function Index() {
       <div className="inner">
         <h2>Jellyfish List</h2>
         <Link to="/jellyfish/new" className="header-link">
-          <button className="new-btn">NEW JELLYFISH</button>
+          <button className="new-btn">NEW Jellyfish</button>
         </Link>
       </div>
       <AllJellyfish />
