@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import JellyfishCard from "./JellyfishCard";
-
+import "./AllJellyfish.css";
 
 function AllJellyfish() {
   const API = import.meta.env.VITE_API_URL;

@@ -1,3 +1,58 @@
+.navbar {
+    width: 100%; /* Full width of the page */
+    position: fixed; /* Fix the position to the top of the page */
+    top: 0; /* Align to the top edge */
+    left: 0; /* Align to the left edge */
+    background-color: coral; /* Background color */
+    overflow: hidden;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    float:inline-end;
+    margin-left: 50px;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 46px;
+    text-decoration: none;
+    font-size: small;
+  }
+  
+  .navbar li a:hover {
+    background-color: #0c63ee;
+    color: #ffffff;
+    /* background-image: url('https://icons8.com/icon/0nBnYZP0IO5W/jellyfish'); */
+    /* Add your image path */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .container {
     background-color: rgb(255, 140, 0);
     margin-top: 0;

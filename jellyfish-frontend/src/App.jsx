@@ -1,29 +1,27 @@
 import { useState } from 'react'
 import React from 'react';
 import './App.css'
-// import './NavBar.css'
 
 // DEPENDENCIES
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // PAGES
-// import NavBar from "./components/NavBar";
-import FourOFour from "./pages/FourOFour";
 import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Index from "./pages/Index";
 import Home from "./pages/Home";
 import Edit from "./pages/Edit";
 import Show from "./pages/Show";
 import New from "./pages/New";
+import FourOFour from "./pages/FourOFour";
 
 function App() {
   return (
     <div className="Jellyfish">
       <Router>
+      <NavBar />
       <Header/>
-      {/* <NavBar /> */}
-      {/* <Props name='Yu Xie' /> */}
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
