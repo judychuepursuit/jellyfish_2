@@ -45,7 +45,7 @@
     border-radius: 15px;
     box-shadow: 6px 6px 10px 0px  #969be1cc;
     margin: 10px;
-    height: 210px;
+    height: 200px;
     width: 180px;
     padding: 25px 10px 0px 10px;
     position: relative;
@@ -80,21 +80,41 @@
     font-size: 12px;
   }
   
+  @keyframes flashing {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  
   .custom-hover {
-    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for transform and color */
+    transition: transform 0.7s ease, color 0.5s ease;
+    /* Smooth transition for transform and color */
     display: inline-block; /* Allows transformation */
   }
   
   .custom-hover:hover {
-    color: #428de8; /* Change to your desired hover color */
-    transform: scale(1.5);
+    color: #428de8;
+    transform: scale(1.25);
+    animation: flashing 1s infinite;
+    /* Apply the flashing animation */
   }
+
+/* custom hover with out the flashing */
+  /* .custom-hover {
+    transition: transform 0.3s ease, color 0.3s ease; 
+    display: inline-block;
+  }
+  
+  .custom-hover:hover {
+    color: #428de8; 
+    transform: scale(1.25);
+  } */
   /* Styles for other links to have the default hover effect */
-  a:hover {
+  /* a:hover { */
     /* color: #428de8; */
     /* color: #e48628; */
-    text-decoration: none;
-  }
+    /* text-decoration: none;
+  } */
+
 
 /* -----------------SUBMIT NEW jellyfish form ----------------- */
 /* NOTE: Moved to Index.css 3.28.24*/

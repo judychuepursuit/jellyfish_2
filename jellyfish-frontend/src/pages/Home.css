@@ -50,15 +50,31 @@ body {
 
 a {
     color: coral;
-    /* color:#da730d; */
     text-decoration: none;
     font-size: 22px;
-    }
-    
-    a:hover {
+    transition: transform 0.5s ease, color 0.5s ease;
+    display: inline-block; 
+    /* Set display to inline-block, if this wasnt applied the transform didnt work*/
+  }
+
+  a:hover {
+  color: #ffffff;
+  transform: scale(1.25);
+  } 
+
+  /* @keyframes flashing {
+    0%, 100% { opacity: 2; }
+    50% { opacity: 0.7; }
+  }
+  
+  a:hover {
     color: #ffffff;
-    } 
-    
+    transform: scale(1.25);
+    animation: flashing 1s infinite; 
+} */
+/* Apply the flashing animation */
+
+
 /* ---------------------HOME jellyfish description------------------ */
 
 .jellyfish-description p {

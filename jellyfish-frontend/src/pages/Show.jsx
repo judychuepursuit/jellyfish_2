@@ -19,19 +19,3 @@ function Show() {
 }
 
 export default Show;
-
-
-
-
-
-
-
-// function Show() {
-//   return (
-//     <div className="outer-grid-container">
-//       <JellyfishDetail />
-//     </div>
-//   );
-// }
-
-// export default Show;

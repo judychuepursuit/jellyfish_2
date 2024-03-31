@@ -1,3 +1,11 @@
+/* ------for second background-------- */
+.second-background {
+    background-image: url('../components/image/water_sky.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
 /* NOTE: Moved from Index.css 3.28.24*/
 
 .NewEdit {
@@ -23,7 +31,8 @@
     padding-top: 1rem;
   }
   
-  .new-back-button, .edit-back-button {  /* Styles back buttons */
+  .new-back-button, .edit-back-button { 
+    /* Styles back buttons */
     /* background-color:#428de8; */
     /* background-color: #e48628; */
     border: none;
