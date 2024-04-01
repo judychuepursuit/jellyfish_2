@@ -17,12 +17,14 @@ jellyfish_2
 <img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="350"></img>
 
 <br> 
-<h3>My Trello Board:<h3> <h4><i>contact me to request access to board</i></h4>
-<img alt="BUDGET TRELLO BOARD" src="img/Judy Budget app Trello Board.png" width="550"></img>
+<h3>My Trello Board:<h3> <h4><i>tocome</i></h4>
+<img alt="JELLYFISH TRELLO BOARD" 
+<!--   "edit the path when Trello board is done" -->
+<!-- src="img/Judy Budget app Trello Board.png" width="550"></img> -->
 
 <h3>My jellyfish- high fidelity wireframe:<h3> 
-<img alt="budget-sketch" src="img/Budget App Sketch_updated.png" width="350"></img>
-
+<img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="750"></img>
+<!-- jellyfish_HF_wireframe.png -->
 <h2> Here is the Github repository link: jellyfish </h2>
 <h4>Here you can access both front and back end</h4>
       <ul>
