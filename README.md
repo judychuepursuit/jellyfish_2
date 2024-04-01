@@ -13,8 +13,6 @@ jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, wh
 jellyfish_2
 
 <h3>jellyfish Index-pg:<h3> 
-### Jellyfish Index Page:
-
 ![Jellyfish Index Page](src/jellyfish-frontend/src/assets/image/INDEX.png)
 
 <!-- <img alt="jellyfish Index page"
