@@ -14,7 +14,7 @@ jellyfish_2
 
 <h3>Jellyfish Home and Index Page:</h3> 
 <img alt="Jellyfish Home Page" src="jellyfish-frontend/public/HOME.png", alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="350"></img>
-<img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="350"></img>
+<!-- <img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="350"></img> -->
 <br> 
 <h3>My Trello Board:<h3> <h4><em>to come</em></h4>
 <img alt="JELLYFISH TRELLO BOARD" 
