@@ -14,7 +14,7 @@ jellyfish_2
 
 <h3>jellyfish Index-pg:<h3> 
 <img alt="jellyfish-INDEX" 
-src="/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/src/assets/image/INDEX.png" width="350"></img>
+src="/jellyfish_2/jellyfish-frontend/src/assets/image/INDEX.png" width="350"></img>
 
 <!-- <img alt="jellyfish Index page"
 src="src/jellyfish-frontend/src/assets/image/INDEX.png" width="350"></img> -->
