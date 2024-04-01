@@ -4,10 +4,10 @@
 <html>
   <head>
    <h1>👋🏻 Hello,  Welcome to the-Jellyfish-App ଳ･</h1>
-<h3>Project code, concet and designed  by Judy Chue</h3>
+<h3>Project conceptualized, coded and designed by Judy Chue</h3>
   </head>
   <body>
-    <h1>Jellyfish-App</h1>
+    <h2>Jellyfish-App</h2>
     <p>
 jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, which is created with "EXPRESS": the Project is named:
 jellyfish_2
@@ -22,13 +22,12 @@ src="img/Frnt_budget App_Index pg alt .png" width="350"></img>
 <h3>My jellyfish- high fidelity wireframe:<h3> 
 <img alt="budget-sketch" src="img/Budget App Sketch_updated.png" width="350"></img>
 
-<h2> Here are the Github repository links: budgeting-app </h2>
+<h2> Here is the Github repository link: jellyfish </h2>
+<h4>Here you can access both front and back end</h4>
       <ul>
-         <!-- <li>Deployed_APP: <a href= https://my-budget-app.onrender.com>Budget App</a></li> -->
 <br>
-        <li>DATABASE_URL: https://github.com/judychuepursuit/jellyfish_2/tree/main/jellyfish-backend</li>
+        <li>DATABASE_URL: https://github.com/judychuepursuit/jellyfish_2</li>
 <br>
-        <li>DATABASE_URL: https://github.com/judychuepursuit/jellyfish_2/tree/main/jellyfish-frontend</li>
 
 <h2> This App applies the C-R-U-D points.</h2>
 <p>HTTP Methods: HTTP methods are also called verbs. They are types of requests you can make to a server. The four most common ones are listed below:</p>
