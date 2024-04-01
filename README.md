@@ -4,31 +4,31 @@
 <html>
   <head>
    <h1>👋🏻 Hello,  Welcome to the-Jellyfish-App ଳ･</h1>
-<h3>Project developed and designed  by Judy Chue</h3>
+<h3>Project code, concet and designed  by Judy Chue</h3>
   </head>
   <body>
-    <h1>My-Budget-App</h1>
+    <h1>Jellyfish-App</h1>
     <p>
-budget-app-front is the frontend app portion (REACT) that pairs with the budgeting-app backend app (EXPRESS) for the Project named:
-My-Budgeting-App
+jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, which is created with "EXPRESS": the Project is named:
+jellyfish_2
 
-<h3>My-Budget-App Index-pg:<h3> 
+<h3>jellyfish Index-pg:<h3> 
 <img alt="my-budget-app Index page"
 src="img/Frnt_budget App_Index pg alt .png" width="350"></img>
 <br> 
 <h3>My Trello Board:<h3> <h4><i>contact me to request access to board</i></h4>
 <img alt="BUDGET TRELLO BOARD" src="img/Judy Budget app Trello Board.png" width="550"></img>
 
-<h3>My Budget App Sketch:<h3> 
+<h3>My jellyfish- high fidelity wireframe:<h3> 
 <img alt="budget-sketch" src="img/Budget App Sketch_updated.png" width="350"></img>
 
 <h2> Here are the Github repository links: budgeting-app </h2>
       <ul>
          <!-- <li>Deployed_APP: <a href= https://my-budget-app.onrender.com>Budget App</a></li> -->
 <br>
-        <li>DATABASE_URL: https://github.com/judychuepursuit/budgeting-app</li>
+        <li>DATABASE_URL: https://github.com/judychuepursuit/jellyfish_2/tree/main/jellyfish-backend</li>
 <br>
-        <li>DATABASE_URL: https://github.com/judychuepursuit/budget-app-front-2</li>
+        <li>DATABASE_URL: https://github.com/judychuepursuit/jellyfish_2/tree/main/jellyfish-frontend</li>
 
 <h2> This App applies the C-R-U-D points.</h2>
 <p>HTTP Methods: HTTP methods are also called verbs. They are types of requests you can make to a server. The four most common ones are listed below:</p>
