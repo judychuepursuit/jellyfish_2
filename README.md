@@ -13,8 +13,12 @@ jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, wh
 jellyfish_2
 
 <h3>jellyfish Index-pg:<h3> 
-<img alt="jellyfish Index page"
-src="src/jellyfish-frontend/src/assets/image/INDEX.png" width="350"></img>
+### Jellyfish Index Page:
+
+![Jellyfish Index Page](src/jellyfish-frontend/src/assets/image/INDEX.png)
+
+<!-- <img alt="jellyfish Index page"
+src="src/jellyfish-frontend/src/assets/image/INDEX.png" width="350"></img> -->
 <br> 
 <h3>My Trello Board:<h3> <h4><i>contact me to request access to board</i></h4>
 <img alt="BUDGET TRELLO BOARD" src="img/Judy Budget app Trello Board.png" width="550"></img>
