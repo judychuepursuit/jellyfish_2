@@ -25,11 +25,11 @@ jellyfish_2
 <h3>My jellyfish- high fidelity wireframe:<h3> 
 <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="750"></img>
 <!-- jellyfish_HF_wireframe.png -->
-<h2> Here is the Github repository link: jellyfish </h2>
+<h2> Github repository link: jellyfish </h2>
 <h4>Here you can access both front and back end</h4>
-      <ul>
+<ul>
 <br>
-        <li>DATABASE_URL: https://github.com/judychuepursuit/jellyfish_2</li>
+      <li>DATABASE_URL: https://github.com/judychuepursuit/jellyfish_2</li>
 <br>
 <h2> This App applies the C-R-U-D points.</h2>
 <p>HTTP Methods: HTTP methods are also called verbs. They are types of requests you can make to a server. The four most common ones are listed below:</p>
@@ -57,4 +57,4 @@ jellyfish_2
 </p>
 <h2>Open to collaboration or work opportunities.</h2>
 <p>
-As beginner Full-Stack web developers I am seeking and am open to collaborating on work projects. Feel free to reach out to me if you have a project or role in mind. You can also reach out and open an issue or submit a pull request. To this repository.</p>
+I am an a designer now practicing to be a Full-Stack web developer. I am open to collaborating on work projects. Feel free to reach out to me if you have a project or role in mind. You can also reach out and open an issue or submit a pull request. To this repository.</p>
