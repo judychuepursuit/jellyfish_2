@@ -13,7 +13,7 @@ jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, wh
 jellyfish_2
 
 ### Jellyfish Home and Index Page:
-<img alt="Jellyfish Home Page" src="jellyfish-frontend/public/HOME.png" width="320" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="320" />
+<img alt="Jellyfish Home Page" src="jellyfish-frontend/public/HOME.png" width="360" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="360" />
 <!-- <img alt="Jellyfish Home Page" src="jellyfish-frontend/public/HOME.png" width="300">
 <img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="300"> -->
 <!-- <img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="350"></img> -->
