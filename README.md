@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <h1>👋🏻 Hello,  Welcome to the-Jellyfish-App ଳ･</h1>
+   <h1>👋🏻 Hello,  Welcome to the-Jellyfish-App🪼 ଳ･</h1>
 <h3>Project conceptualized, coded and designed by Judy Chue</h3>
   </head>
   <body>
@@ -28,7 +28,6 @@ src="img/Frnt_budget App_Index pg alt .png" width="350"></img>
 <br>
         <li>DATABASE_URL: https://github.com/judychuepursuit/jellyfish_2</li>
 <br>
-
 <h2> This App applies the C-R-U-D points.</h2>
 <p>HTTP Methods: HTTP methods are also called verbs. They are types of requests you can make to a server. The four most common ones are listed below:</p>
 <ul>
@@ -56,4 +55,3 @@ src="img/Frnt_budget App_Index pg alt .png" width="350"></img>
 <h2>Open to collaboration or work opportunities.</h2>
 <p>
 As beginner Full-Stack web developers I am seeking and am open to collaborating on work projects. Feel free to reach out to me if you have a project or role in mind. You can also reach out and open an issue or submit a pull request. To this repository.</p>
-)
