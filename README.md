@@ -18,7 +18,7 @@ jellyfish_2
 <img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="300"> -->
 <!-- <img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="350"></img> -->
 
-<h3>My Trello Board:<h3> <h4><em>to come</em></h4>
+<h3>My Trello Board:<h3> <h4><i>to come</i></h4>
 <img alt="JELLYFISH TRELLO BOARD" 
 <!--   "edit the path when Trello board is done" -->
 <!-- src="img/Judy Budget app Trello Board.png" width="550"></img> -->
