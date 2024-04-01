@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 70vh;
-    padding-top: 40px;
+    /* padding-top: 0px; */
     position: relative;
     /* top: -10px; */
 
@@ -41,8 +41,8 @@ body {
     
 .Content {
     text-align: center;
-    margin-bottom: 20px; 
-    margin-top: -30px;
+    margin-bottom: 120px; 
+    margin-top: -20px;
 }
 
 /* -------------HOME click for jellyfish----------------- */
@@ -59,19 +59,19 @@ a {
 
   a:hover {
   color: #ffffff;
-  transform: scale(1.25);
+  /* transform: scale(1.25); */
   } 
 
-  /* @keyframes flashing {
+  @keyframes flashing {
     0%, 100% { opacity: 2; }
     50% { opacity: 0.7; }
   }
   
   a:hover {
     color: #ffffff;
-    transform: scale(1.25);
+    /* transform: scale(1.25); */
     animation: flashing 1s infinite; 
-} */
+}
 /* Apply the flashing animation */
 
 
@@ -81,11 +81,11 @@ a {
     color: rgb(162, 186, 241); 
     max-width: auto; 
     margin: 5px; 
-    line-height: 135%;
+    line-height: 155%;
     width: 75vw;
     /* height: vh; */
     /* margin-bottom: 1.5rem; */
-    padding-top: 10px;
+    padding-top: 7px;
     font-size: small;
 }
   
@@ -101,12 +101,12 @@ a {
     justify-content: flex-end;
     align-items: flex-start;
     width: 135px;
-    margin-bottom: 1rem;
-    padding-bottom: 4rem;
+    /* margin-bottom: 2rem; */
+    padding-bottom: 8rem;
 }
 
 .Home img {
     width: 120px;
     position:relative;
-    top: -25px
+    top: -115px
 }

@@ -9,7 +9,7 @@ function Home() {
           <body class="home"></body>
       <div className="Content">
         <h2>Welcome to the Jellyfish App</h2>
-        <h3 className="AllJellyfishLinks"><Link to="/jellyfish">{`‣ Click for Jellyfish`}</Link></h3>
+        <h3 className="AllJellyfishLinks"><Link to="/jellyfish">{`‣ Click for Jellyfish selection`}</Link></h3>
       </div>
       <div className="ImageContainer">
       <img src={image} alt="jellyfish icon.jpg"/>

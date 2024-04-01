@@ -19,6 +19,14 @@ function EditJellyfish() {
     image_link: ""
   });
 
+  useEffect(() => {
+    document.body.classList.add("second-background");
+
+    // return () => {
+    //   document.body.classList.remove("second-background");
+    // };
+  }, []);
+
   const updateJellyfish = (updatedJellyfish) => {
     axios
       .put(`${API}/jellyfish/${id}`, updatedJellyfish)

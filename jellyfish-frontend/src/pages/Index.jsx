@@ -9,9 +9,9 @@ function Index() {
   useEffect(() => {
     document.body.classList.add("second-background");
 
-    return () => {
-      document.body.classList.remove("second-background");
-    };
+    // return () => {
+    //   document.body.classList.remove("second-background");
+    // };
   }, []);
 
   return (
