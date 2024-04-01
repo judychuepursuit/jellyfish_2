@@ -12,9 +12,9 @@
 jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, which is created with "express": the Project is named:
 jellyfish_2
 
-<h3>Jellyfish Index Page:</h3> 
+<h3>Jellyfish Home and Index Page:</h3> 
+<img alt="Jellyfish Home Page" src="jellyfish-frontend/public/HOME.png" width="350"></img>
 <img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="350"></img>
-
 
 <br> 
 <h3>My Trello Board:<h3> <h4><i>contact me to request access to board</i></h4>
