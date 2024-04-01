@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <h1>👋🏻 Hello,  Welcome to the-Jellyfish-App🪼 ଳ･</h1>
+   <h1>👋🏻 Hello,  Welcome to the-Jellyfish-App ଳ･</h1>
 <h3>Project conceptualized, coded and designed by Judy Chue</h3>
   </head>
   <body>
@@ -13,8 +13,8 @@ jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, wh
 jellyfish_2
 
 <h3>jellyfish Index-pg:<h3> 
-<img alt="my-budget-app Index page"
-src="img/Frnt_budget App_Index pg alt .png" width="350"></img>
+<img alt="jellyfish Index page"
+src="img/INDEX.png" width="350"></img>
 <br> 
 <h3>My Trello Board:<h3> <h4><i>contact me to request access to board</i></h4>
 <img alt="BUDGET TRELLO BOARD" src="img/Judy Budget app Trello Board.png" width="550"></img>
