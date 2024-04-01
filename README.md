@@ -9,7 +9,7 @@
   <body>
     <h2>Jellyfish-App</h2>
     <p>
-jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, which is created with "EXPRESS": the Project is named:
+jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, which is created with "express": the Project is named:
 jellyfish_2
 
 <h3>jellyfish Index-pg:<h3> 
@@ -34,17 +34,16 @@ src="img/Frnt_budget App_Index pg alt .png" width="350"></img>
 <ul>
       <li>GET /transactions: Returns a list of all transactions.</li>
       <li>POST /transactions: Creates a new transaction.</li>
-      <li>GET /transactions/: id: Returns the transaction with the specified ID.</li>
       <li>PUT /transactions/: id: Updates the transaction with the specified ID.</li>
       <li>DELETE /transactions/: id: Deletes the transaction with the specified ID.</li>
 </ul>
-<h2>budget-app-front: Frontend</h2>
+<h2>jellyfish_2: Frontend</h2>
 <p>
-  The REACT app uses the following installs and dependencies: axios, react, react-dom, react-router-dom in order to connect to the back end and the request(s) be viewed on the local host or deployed sites.
+  The REACT/vite app has the following installs and dependencies: axios, react, react-dom, react-router-dom in order to connect to the back end and the request(s) be viewed on the local host or deployed site.
 <br>
-<h2>budgeting-app: Backend</h2>
+<h2>jellyfish_2: Backend</h2>
   The EXPRESS app (use git init -y) uses the following installs and dependencies: express, nodemon, dotenv, cors also add a ‘VALIDATIONS” folder (checks apps) . 
-  This App requires a db folder that has a dbconfig.js, schema.sql (contains the table “INFORMATION”) and a  seed.sql file (contains the files “VALUES”).
+  This App requires a db folder that has a dbconfig.js, schema.sql (contains the table “INFORMATION”) and a seed.sql file (contains the files Tables & “VALUES”).
   Include a .env file and type in the PORT=30xx (edit the last digits accordingly). 
   Note: Make sure that the .env file has been correctly saved inside the main folder.  
 <h2>contact info:</h2>
