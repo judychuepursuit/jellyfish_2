@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <h1>👋🏻 Hello,  Welcome to the-Jellyfish-App ଳ･</h1>
+   <h1>👋🏻 Hello,  Welcome to the-Jellyfish-App 🪼 ଳ･</h1>
 <h3>Project conceptualized, coded and designed by Judy Chue</h3>
   </head>
   <body>
