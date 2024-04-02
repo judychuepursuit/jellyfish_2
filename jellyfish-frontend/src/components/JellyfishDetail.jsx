@@ -51,7 +51,7 @@ return (
       </div>
     </div>
       <div className="jf-name">
-        <h2>{jellyfish.is_venomous ? "☠" : "♡"} {jellyfish.name}</h2>
+        <h2>{jellyfish.is_venomous ? "💀" : "♡"} {jellyfish.name}</h2>
       </div>
       <div className="jf-images">
         <img className="jf-show-image" src={jellyfish.image_link ? jellyfish.image_link : noImage} alt="jellyfish" />

@@ -1,5 +1,8 @@
 /* NOTE: Moved to NewJellyfish.css 3.28.24*/
-
+.home-background {
+  background-image: url('path/to/your/home-page-image.jpg');
+  /* Other background styles as needed */
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
