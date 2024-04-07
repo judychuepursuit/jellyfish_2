@@ -21,8 +21,7 @@ jellyfish_2
         <h4><a href="https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site">Jellyfish Trello Board</a></h4>
     </li>
 </ul>
-<img alt="Jellyfish Trello Board" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="550"></img>
-<br>
+<img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="550"></img>
 <h3>Jellyfish Trello Board:</h3>
 <ul>
     <li>
