@@ -19,20 +19,3 @@ function NavBar() {
   }
   
   export default NavBar;
-
-
-
-// edited to be like Jose'
-
-//  function NavBar () {
-//    return (
-//      <nav className='container'>
-//          <section className='main'></section>
-//         <section className='categories-section'>
-//             <h6>Jellyfish</h6>
-//             <h6>Jellyfish Information</h6>
-//             <h6>Add or Edit Jellyfish</h6>
-//         </section> 
-//      </nav>
-//    );
-//  }

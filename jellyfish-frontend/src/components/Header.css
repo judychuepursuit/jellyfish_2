@@ -28,6 +28,7 @@ h1 {
     align-items: center; 
     color: coral;
     animation: neon 3s infinite;
+    z-index: 103;
   }
   
   .jellyfish-headline:hover {

@@ -44,7 +44,7 @@ body {
     
 .Content {
     text-align: center;
-    margin-bottom: 120px; 
+    margin-bottom: -10px; 
     margin-top: -20px;
 }
 
@@ -88,7 +88,7 @@ a {
     width: 75vw;
     /* height: vh; */
     /* margin-bottom: 1.5rem; */
-    padding-top: 7px;
+    padding-top: 2%;
     font-size: small;
 }
   
@@ -100,13 +100,18 @@ a {
   
 /* ----------------------HOME PAGE jellyfish icon-------------------- */
 .ImageContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    width: 135px;
-    /* margin-bottom: 2rem; */
-    padding-bottom: 8rem;
+  display: flex;
+  justify-content:flex-start;
+  width: 140px;
+  margin-bottom: 6rem;
+  padding-bottom: 7rem;
+  background-image: url('img.icons8.png'); 
+  background-size: contain;
+  background-position: center; 
 }
+/* <img src={image} alt="jimg.icons8.png"/> 
+<img src={image} alt="Pelagia_noctiluca.jpeg"/>  */
+
 
 .Home img {
     width: 120px;
