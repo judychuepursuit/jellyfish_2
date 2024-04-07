@@ -24,9 +24,7 @@ jellyfish_2
 <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="550"></img>
 <h3>Jellyfish Trello Board:</h3>
 <ul>
-    <li>
 <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img>
-    </li>
 <h3> Github repository link: jellyfish </h3>
 <h4>Link to front and back end repo:</h4>
 <ul><li>https://github.com/judychuepursuit/jellyfish_2</li>
