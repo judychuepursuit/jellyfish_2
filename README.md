@@ -17,11 +17,10 @@ jellyfish_2
 <!-- copied from here -->
 <h3>Link to Jellyfish Trello Board:</h3>
 <ul><li>https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site</li>
-<br>
 </ul>
 <h3>Jellyfish Trello Board</h3>
   <ul>
-  <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="550"></img>
+  <img alt="Jellyfish Trello Board" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="550"></img>
 <!-- copied from here -->
 </ul>
 <h3>Jellyfish HF Wireframe</h3>
