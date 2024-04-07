@@ -20,7 +20,7 @@ jellyfish_2
 </ul>
 <h3>Jellyfish Trello Board</h3>
   <ul>
-  <img alt="Jellyfish Trello Board" src="Jellyfish_Trello_board.png" width="550"></img>
+  <img alt="Jellyfish Trello Board" src="jellyfish-frontend/public/jellyfish_Trello_board.png" width="550"></img>
 <!-- copied from here -->
 </ul>
 <h3>Jellyfish HF Wireframe</h3>
