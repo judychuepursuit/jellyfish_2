@@ -15,14 +15,14 @@ jellyfish_2
 ### Jellyfish Home and Index Page:
 <img alt="Jellyfish Home Page" src="jellyfish-frontend/public/HOME.png" width="360" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="360" />
 
-<h3>JellyFISH Trello Board:</h3>
+<h3>Jellyfish Trello Board:</h3>
 <ul>
     <li>
-        <h4><a href="https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site">JellyFISH Trello Board</a></h4>
+        <h4><a href="https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site">Jellyfish Trello Board</a></h4>
     </li>
 </ul>
 <br>
-<img alt="Jellyfish Trello Board" src="/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/public/Jellyfish_Trello_board.png" width="750" />
+<img alt="Jellyfish Trello Board" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="750" />
 
 <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img>
 <h3> Github repository link: jellyfish </h3>
