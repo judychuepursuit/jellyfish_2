@@ -20,7 +20,9 @@ jellyfish_2
 
 <h3>JellyFISH Trello Board:<h3> <h4><i>to come</i></h4>
 <img alt="JELLYFISH TRELLO BOARD" 
-<!--   "edit the path when Trello board is done" -->
+src="jellyfish-frontend/public/Jellyfish Trello board.png" width="750"></img>
+<!-- src="img/Jellyfish Trello Board.png" width="750"></img> -->
+<!-- src="jellyfish-frontend/public/Jellyfish Trello board.png" width="550"></img> -->
 <!-- src="img/Judy Budget app Trello Board.png" width="550"></img> -->
 
 <h3>My jellyfish- high fidelity wireframe:<h3> 
