@@ -22,8 +22,8 @@ jellyfish_2
     </li>
 </ul>
 <br>
-<img alt="Jellyfish Trello Board" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="750" />
-<!-- <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img><h3>My jellyfish- high fidelity wireframe:<h3>  -->
+<img alt="Jellyfish Trello Board" src="/Users/judychue/Desktop/jellyfish_2/jellyfish-frontend/public/Jellyfish_Trello_board.png" width="750" />
+
 <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img>
 <h3> Github repository link: jellyfish </h3>
 <h4>Link to front and back end repo:</h4>
