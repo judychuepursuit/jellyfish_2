@@ -9,7 +9,7 @@
   <body>
     <h2>Jellyfish-App</h2>
     <p>
-jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, which is created with "express": the Project is named: jellyfish_2
+jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, which is created with "express": the Project is named jellyfish_2.
 
 ### Jellyfish Home and Index Page:
 <img alt="Jellyfish Home Page" src="jellyfish-frontend/public/HOME.png" width="360" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="360" />
