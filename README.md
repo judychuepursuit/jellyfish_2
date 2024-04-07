@@ -17,17 +17,18 @@ jellyfish_2
 <!-- copied from here -->
 <h3>Link to Jellyfish Trello Board:</h3>
 <ul><li>https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site</li>
-<ul>
 <br>
-    <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="550"></img>
-<h3>Jellyfish Trello Board:</h3>
+</ul>
+<h3>Jellyfish Trello Board</h3>
+  <ul>
+  <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="550"></img>
 <!-- copied from here -->
 </ul>
 <h3>Jellyfish HF Wireframe</h3>
 <ul>
-<img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img>
-<h3> Github repository link: jellyfish </h3>
-<h4>Link to front and back end repo:</h4>
+  <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img>
+  <h3> Github repository link: jellyfish </h3>
+  <h4>Link to front and back end repo:</h4>
 <ul><li>https://github.com/judychuepursuit/jellyfish_2</li>
 <h3> This App applies the C-R-U-D points.</h3>
 <p>HTTP Methods: HTTP methods are also called verbs. They are types of requests you can make to a server. The four most common ones are listed below:</p>
