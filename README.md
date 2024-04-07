@@ -17,9 +17,10 @@ jellyfish_2
 
 <h3>JellyFISH Trello Board:</h3>
 <ul>
-  <li>
-    <h4><a https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site</a></h4>
-  </li>
+    <li>
+        <h4><a href="https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site">JellyFISH Trello Board</a></h4>
+    </li>
+</ul>
 <br>
 <img alt="Jellyfish Trello Board" src="jellyfish-frontend/public/Jellyfish_Trello_board.png" width="750" />
 <!-- <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img><h3>My jellyfish- high fidelity wireframe:<h3>  -->
