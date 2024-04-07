@@ -26,7 +26,6 @@ jellyfish_2
 <h3> Github repository link: jellyfish </h3>
 <h4>Link to front and back end repo:</h4>
 <ul><li>https://github.com/judychuepursuit/jellyfish_2</li>
-<br>
 <h3> This App applies the C-R-U-D points.</h3>
 <p>HTTP Methods: HTTP methods are also called verbs. They are types of requests you can make to a server. The four most common ones are listed below:</p>
 <ul>
