@@ -21,10 +21,10 @@ jellyfish_2
 <h3>JellyFISH Trello Board:<h3> <h4><i>to come</i></h4>
 <ul>
 <br>
-      <li>[DATABASE_URL: (https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site)]</li>
+      <li>(https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site)</li>
+<!--       <li>[DATABASE_URL: (https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site)]</li> -->
 <br>
 <img alt="JELLYFISH TRELLO BOARD" src="jellyfish-frontend/public/Jellyfish Trello board.png" width="750"></img>
-<!-- https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site -->
 
 <h3>My jellyfish- high fidelity wireframe:<h3> 
 <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img>
