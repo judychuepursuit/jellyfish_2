@@ -19,11 +19,7 @@ jellyfish_2
 <!-- <img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="350"></img> -->
 
 <h3>JellyFISH Trello Board:<h3> <h4><i>to come</i></h4>
-<img alt="JELLYFISH TRELLO BOARD" 
-src="jellyfish-frontend/public/Jellyfish Trello board.png" width="750"></img>
-<!-- src="img/Jellyfish Trello Board.png" width="750"></img> -->
-<!-- src="jellyfish-frontend/public/Jellyfish Trello board.png" width="550"></img> -->
-<!-- src="img/Judy Budget app Trello Board.png" width="550"></img> -->
+<img alt="JELLYFISH TRELLO BOARD" src="jellyfish-frontend/public/Jellyfish Trello board.png" width="750"></img>
 
 <h3>My jellyfish- high fidelity wireframe:<h3> 
 <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img>
