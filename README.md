@@ -9,26 +9,29 @@
   <body>
     <h2>Jellyfish-App</h2>
     <p>
-jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, which is created with "express": the Project is named:
-jellyfish_2
+jellyfish-frontend is a REACT/vite app that pairs with the jellyfish-backend, which is created with "express": the Project is named: jellyfish_2
 
 ### Jellyfish Home and Index Page:
 <img alt="Jellyfish Home Page" src="jellyfish-frontend/public/HOME.png" width="360" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Jellyfish Index Page" src="jellyfish-frontend/public/INDEX.png" width="360" />
-<!-- copied from here -->
+
 <h3>Link to Jellyfish Trello Board:</h3>
 <ul><li>https://trello.com/invite/b/1UpF4b90/ATTI46900af79c11c34ee4b8bcf5848bd554BD56AB17/the-jellyfish-site</li>
 </ul>
+
 <h3>Jellyfish Trello Board</h3>
   <ul>
   <img alt="Jellyfish Trello Board" src="jellyfish-frontend/public/jellyfish_Trello_board.png" width="550"></img>
-<!-- copied from here -->
-</ul>
+  </ul>
+
 <h3>Jellyfish HF Wireframe</h3>
-<ul>
+  <ul>
   <img alt="Jellyfish HF Wireframe" src="jellyfish-frontend/public/jellyfish_HF_wireframe.png" width="950"></img>
-  <h3> Github repository link: jellyfish </h3>
-  <h4>Link to front and back end repo:</h4>
+  </ul>
+
+<h3> Github repository link: jellyfish </h3>
+<h4>Link to front and back end repo:</h4>
 <ul><li>https://github.com/judychuepursuit/jellyfish_2</li>
+  
 <h3> This App applies the C-R-U-D points.</h3>
 <p>HTTP Methods: HTTP methods are also called verbs. They are types of requests you can make to a server. The four most common ones are listed below:</p>
 <ul>
